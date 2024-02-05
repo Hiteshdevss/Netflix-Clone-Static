@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+    background-color: #232323;
+    height: 5px;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./bg.png);
+}
+
+.hero .header {
+    height: 14vh;
+    width: 100%;
+    display: flex;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+    justify-content: space-between;
+}
+
+.hero .header .logo img {
+    height: 60px;
+    margin-top: 1rem;
+    justify-content: flex-end;
+}
+
+.hero .header .buttonBox {
+    height: 60px;
+    margin-top: 1rem;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+    display: flex;
+}
+
+.hero .header .buttonBox select {
+    background-color: #000;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero .header .buttonBox .b2 input[type=submit] {
+    background-color: #E50914;
+    color: white;
+    padding: 13px;
+    font-size: 13px;
+    margin-left: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #a50810;
+}
+
+.display-box {
+    height: 80vh;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+}
+
+.display-box .box {
+    max-width: 100%;
+    /* Ensure the child element takes up the available width */
+    text-align: center;
+    /* Optionally center text within the box */
+}
+
+.display-box .search-box {
+    display: flex;
+}
+
+.display-box .box h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.display-box .search-box input[type=text] {
+    width: 150%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.display-box .search-box input[type=submit] {
+    width: 50%;
+    background-color: #E50914;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.display-box .search-box input[type=submit]:hover {
+    background-color: #a50810;
+}
+
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.content-box .box1 {
+    display: flex;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+    align-items: center;
+}
+
+.content-box .box2 {
+    display: flex;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+    align-items: center;
+}
+
+.content-box .box3 {
+    display: flex;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+    align-items: center;
+}
+
+.content-box .box4 {
+    display: flex;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+    align-items: center;
+}
+
+/* .content-box .faq {} */
+
+.content-box .faq h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.content-box .faq ul {
+    padding: 0 15rem 0 15rem;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.content-box .faq ul li {
+    padding: 1rem 3rem;
+    background-color: #232323;
+    border: 2px solid #fff;
+}
+
+.display-box-footer {
+    height: 30vh;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+}
+
+.display-box-footer .box-footer {
+    max-width: 100%;
+    /* Ensure the child element takes up the available width */
+    text-align: center;
+    /* Optionally center text within the box */
+}
+
+.display-box-footer .box-footer h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.display-box-footer .search-box input[type=text] {
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.display-box-footer .search-box input[type=submit] {
+    width: 40%;
+    background-color: #E50914;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.display-box-footer .search-box input[type=submit]:hover {
+    background-color: #a50810;
+}
+
+.footer {
+    color: #fff;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+    margin-top: 40px;
+    display: flex;
+}
+
+.footer .box1 {
+    height: 30vh;
+    width: 25%;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+}
+
+.footer .box2 {
+    height: 30vh;
+    width: 25%;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+}
+
+.footer .box3 {
+    height: 30vh;
+    width: 25%;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+}
+
+.footer .box4 {
+    height: 30vh;
+    width: 25%;
+    padding: 0.4rem 5rem 0.4rem 5rem;
+}
+
+.footer ul {
+    list-style: none;
+}
